@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Our Wedding</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      margin: 0;
+      background: #fdf6f0;
+      color: #333;
+    }
+
+    header {
+      background-color: #d4a373;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    .section {
+      padding: 3rem 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .section h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .story, .schedule, .rsvp {
+      background-color: white;
+      border-radius: 8px;
+      padding: 2rem;
+      margin-top: 2rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    a.button {
+      background: #d4a373;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 1rem;
+    }
+
+    @media screen and (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>[Couple's Names]</h1>
+    <p>Are Getting Married!</p>
+    <p>[Wedding Date]</p>
+  </header>
+
+  <div class="section">
+    <div class="story">
+      <h2>Our Story</h2>
+      <p>[Insert a brief story about how you met, the proposal, or your journey together]</p>
+    </div>
+
+    <div class="schedule">
+      <h2>Wedding Details</h2>
+      <p><strong>Date:</strong> [Wedding Date]</p>
+      <p><strong>Time:</strong> [Ceremony Time]</p>
+      <p><strong>Venue:</strong> [Wedding Venue Name & Address]</p>
+      <p>[Additional details like dress code, parking, etc.]</p>
+    </div>
+
+    <div class="rsvp">
+      <h2>RSVP</h2>
+      <p>Please let us know if you’ll be joining us by [RSVP Deadline]</p>
+      <a href="[RSVP Link]" class="button">RSVP Now</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; [Year] [Couple's Names] Wedding</p>
+  </footer>
+
+</body>
+</html>
